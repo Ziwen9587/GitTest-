@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Cart Page </title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <nav>
+        <h3>Capital Grocery Store</h3>
+        <div id="navBtns-container">
+            <button id="clientBtn">Client</button>
+            <button id="productsBtn" >Products</button>
+            <button id="cartBtn" onclick="location.href = 'cart.html'">Cart</button>
+        </div>
+    </nav>
+    <div id="breadcrumbs-container">
+    </div>
+    <div id="content-container-search">
+    </div>
+    <div id="content-container-search-result">
+    </div>
+    <div id="content-container">
+        <ul class="breadcrumb">
+            <li><a href="#" onclick="clientClick()">Client</a></li>
+            <li><a href="#" onclick="productsClick()">Products</a></li>
+            <li>Cart</li>
+        </ul>
+    
+
+        <h3> Cart information </h3>
+        <h5> Please click the button below to review the cart: </h5>
+        <button id="refresh" onclick="cartClick()">Check Your Cart</button>
+        
+        <table id="SelectedItems">
+            <thead> 
+                <tr>
+                    <th> Product Name </th>
+                    <th> Unit Price (CAD) </th>
+                    <th> Quantity </th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts/main.js"></script>
+    <footer>
+        <p>Website Designed by: Derek Hacault-Parodi, Steven Li Wing, and Xiaoyang Wang.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,191 @@
+html{
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin:0;
+    padding:0;
+}
+
+table {
+    width: auto;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    width: auto;
+    word-wrap: break-word;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+
+  footer{
+    bottom: 0;
+    padding-top:1em;
+    margin: 1em 1em 0 1em;
+  }
+
+  nav{
+    display:flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 2px rgb(226, 223, 223);
+    margin:0;
+    padding:0;
+  }
+
+  nav > h3{
+    margin-left: 1em;
+  }
+  #navBtns-container{
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  #page-container{
+    margin:0;
+    padding:0;
+    width:100%;
+    height:100%;
+  }
+
+  #navBtns-container > button{
+    width: 5em;
+    height:3em;
+    background-color: white;
+    border:none;
+    border-right:1px solid rgb(240, 240, 240);
+    height:100%;
+    font-size:15px;
+  }
+
+  #navBtns-container > button:hover{
+    background-color: #ddd;
+    cursor:pointer;
+  }
+
+  #content-container{
+    margin: 1em;
+  }
+
+.numInputs {
+  width:3em;
+}
+
+#content-container-search{
+  margin: 1em;
+}
+
+#content-container-search-result{
+  margin: 1em;
+}
+
+
+/* ----------------------------------------------------- */
+/* ----------------CSS for breadcrumbs------------------ */
+#breadcrumbs-container {
+  margin: 1em;
+}
+
+ul.breadcrumb {
+  padding: 10px 16px;
+  width: 400px;
+  list-style: none;
+  background: linear-gradient(to right, #e0d9c8, #b4c7eb);
+  border-radius: 10px;
+}
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: rgb(0, 0, 0);
+  content: " \2192 ";
+  /* content: url('path/to/your/image.png'); */
+  font-weight:bold;
+}
+ul.breadcrumb li a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+ul.breadcrumb li a:hover {
+  /* color: rgb(0, 0, 0); */
+  background: linear-gradient(to right, #b6b6b5, #9dacca);
+  text-decoration: underline;
+}
+ul.breadcrumb li:last-child {
+  color: #3f50b6;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+
+/* ----------------------------------------------------- */
+/* -----------------CSS for search bar------------------ */
+/* Style for the container of the search bar */
+.search-container {
+display: flex;
+justify-content: center;
+margin-top: 10px;
+}
+
+/* Style for the input field */
+#searchInput {
+padding: 8px;
+border: 1px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+}
+
+/* Style for the search button */
+#searchBtn {
+padding: 8px 12px;
+background-color: #0c08e4; /* Green color */
+color: white;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+/* Hover effect for the search button */
+#searchBtn:hover {
+background-color: #df0d0d;
+}
+
+
+/* ----------------------------------------------------- */
+/* ------------------CSS for Cart Page------------------ */
+#refresh {
+padding: 16px 16px;
+background: linear-gradient(to right, #0408e9, rgb(177, 76, 76));
+color: white;
+border-style:double;
+border-radius: 4px;
+cursor: pointer;
+}
+
+table {
+width: auto;
+border-collapse: collapse;
+}
+
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+width: auto;
+word-wrap: break-word;
+}
+
+th {
+background-color: #f2f2f2;
+}
+/* ------------------CSS for Cart Page------------------ */
+/* ----------------------------------------------------- */
